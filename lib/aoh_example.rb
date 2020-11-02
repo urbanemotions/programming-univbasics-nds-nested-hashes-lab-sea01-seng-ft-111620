@@ -28,6 +28,7 @@ def literal_aoh
     {:name => "Kate Gompert", :occupation => "None" },
     {:name => "Bruce Green", :occupation => "Fan of Mildred" }
     ]
+    literal_list.sort
 end
 
 def aoh_lookup(aoh, row, key)
