@@ -51,6 +51,6 @@ def aoh_update(aoh, row, key, new_value)
     KATE_G, 
     BRUCE_G
     ]
-    assembled_list[2][:name]
-  
+    assembled_list[1][:name] ="Joelle van Dyne (PGOAT)"
+    puts assembled_list
 end
