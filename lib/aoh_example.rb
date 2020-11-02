@@ -31,7 +31,14 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  lookup_list = [assembled_aoh][2][:name]
+  assembled_list = [
+    DON_G,
+    JOELLE_VD,
+    PAT_M,
+    KATE_G, 
+    BRUCE_G
+    ]
+    assembled_list[2][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
