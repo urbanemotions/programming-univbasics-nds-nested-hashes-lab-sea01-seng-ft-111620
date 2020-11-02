@@ -16,7 +16,7 @@ def assembled_aoh
     KATE_G, 
     BRUCE_G
     ]
-    assembled_list
+    puts assembled_list
 end
 
 def literal_aoh
