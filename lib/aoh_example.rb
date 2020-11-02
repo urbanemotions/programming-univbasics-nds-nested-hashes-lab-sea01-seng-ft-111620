@@ -28,7 +28,7 @@ def literal_aoh
     KATE_G,
     BRUCE_G
     ]
-    return literal_list
+    literal_list
 end
 
 def aoh_lookup(aoh, row, key)
